@@ -7,21 +7,21 @@
 // --- Encryption key for URLS ---
 // Used to mask links and other private data configured within miner stats
 // Set this to a random string of at least 20 characters
-	$conf['key'] = '86XzjlVmdY4TY8NHLD4';
+	$conf['key'] = '86Xzjllkj45lkj43iury3iuhjkhkjdhfjhVmdY4TY8NHLD4';
 
 
 // --- Wallet/Account Address ---
 // Used to pull stats from ethermine, as well as the etherium blockchain
 // This is the same as "<Your_Ethereum_Address>" when configuring your miner
 // on ethermine.org
-	$conf['wallet'] = '70d37408c284178565c8091356684cb87d55f2f4';
+	$conf['wallet'] = '0x75B78C52b3E6858B18937c00B947F2b14B5A62C3';
 
 
 // --- Timezone ---
 // Set this to your timezone, so that "next eth" and other date/time related 
 // statistics are calculated so they are relevant to you.
 // To find your timezone see - http://php.net/manual/en/timezones.php
-	date_default_timezone_set('Europe/London'); 
+	date_default_timezone_set('America/New_York'); 
 
 
 // --- Cache File ---
@@ -31,7 +31,7 @@
 // file to be called.  This file will be readable from your webserver, so
 // use a random name to maintain the obscurity of your mining wallet 
 // address.
-	$conf['cache_file'] = 'changeme.tmp';
+	$conf['cache_file'] = 'randomthing.tmp';
 
 
 	
@@ -42,7 +42,7 @@
 // Set the base FIAT currency (ISO 4217) you are interested in.  Currently 
 // I have only created support for USD, EUR and GBP.  If you want others 
 // adding let me know.
-	$conf['fiat'] = 'gbp';
+	$conf['fiat'] = 'usd';
 
 // Set the colour scheme of all elements using the bootstrap utility
 // standards (info = blue, success = green, warning = yellow, danger = red).
@@ -57,11 +57,11 @@
 	// What is the average power consumption of your mining rig in watts?
 	// If you have more than one rig, and assuming they are on the same
 	// supply, paying the same kWh rate, simply combine the power values.
-	$conf['watts'] = '600';
+	$conf['watts'] = '900';
 
 	// How much do you pay per kWh?  This will usually be in the lowest
 	// common denominator for your base currency.
-	$conf['kwh_rate'] = '0.13901';
+	$conf['kwh_rate'] = '0.14';
 
 
 // --- Display Settings ---
